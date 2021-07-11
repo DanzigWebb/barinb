@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppLocaleModule } from './app-locale.module';
+import { LayoutModule } from '@app/ui/theme/layout';
 
 @NgModule({
   declarations: [AppComponent],
@@ -15,6 +16,7 @@ import { AppLocaleModule } from './app-locale.module';
 
     // Locale
     AppLocaleModule,
+    LayoutModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
